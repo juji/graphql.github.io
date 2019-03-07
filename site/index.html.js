@@ -69,6 +69,7 @@ module.exports = ({ page, section }) =>
 
       </div>
     </div>
+    
 
     <section className="lead">
       <h1>A query language for your API</h1>
@@ -177,6 +178,7 @@ module.exports = ({ page, section }) =>
     </section>
 
     <div className="grayWash">
+  {/* please add support for http2, using websocket for realtime-updates require more step */}
       <section className="point2" id="single-request">
         <div className="prose">
           <h2>Get many resources<br />in a single request</h2>
